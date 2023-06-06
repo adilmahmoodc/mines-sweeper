@@ -1,0 +1,8 @@
+<%= bootstrap_form_for(@board) do |f| %>
+  <%= f.email_field :email %>
+  <%= f.text_field :name %>
+  <%= f.text_field :width %>
+  <%= f.text_field :height %>
+  <%= f.text_field :number_of_mines %>
+  <%= f.submit "Create" %>
+<% end %>
